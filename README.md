@@ -6,7 +6,7 @@
 - **Students:**
   - **Student 1:** Douglas da Fontoura Pereyra (USP number: 14566686)
   - **Student 2:** Henrique Vilela Zucoloto (USP number: 14578515)
-  - **Student 3:** Nicolas...
+  - **Student 3:** Nicolas Carreiro Rodrigues (USP number: 14600801)
 
 ---
 

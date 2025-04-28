@@ -72,9 +72,9 @@ This project implements a mock-up for an **Online Supermarket, Carrethree**. The
   - **Login Page**: 
   ![login](img/login.jpg)
   - **Product Details Page**: 
-  ![cart](img/pdpage.jpg)
+  ![product page](img/pdpage.jpg)
   - **Product Details (admin)**: 
-  ![cart](img/pdadm.jpg)
+  ![product page admin](img/pdadm.jpg)
   - **Shopping Cart**: 
   ![cart](img/cart.jpg)
   - **Checkout**: 
@@ -88,6 +88,34 @@ These mock-ups serve as static snapshots of the application, illustrating the la
 
 - for the navigation diagram we used the figma tool, below is the link to the diagram:
 [navigation diagram](https://www.figma.com/design/CtUhpCMJ491GAEWOQcpVr3/Untitled?node-id=0-1&t=XjS0xpalAkzbz15Z-1)
+
+**How to use the diagram:**
+- click on play in the top right corner
+- on each screen, the buttons that lead to the other screens are clickable and show the corresponding mockup.
+
+**Written diagram:**
+- user home -> login
+- user home -> user product detail
+- user home -> cart
+
+- adm home -> adm product detail
+- adm home -> cart
+- adm home -> login
+
+- product detail -> cart
+- product detail -> login
+- product detail -> home
+
+- adm product detail -> cart
+- adm product detail -> login
+- adm product detail -> adm home
+
+- cart -> payment
+- cart -> home
+- cart -> login
+
+- login
+- payment
 
 ## Comments About the Code
 

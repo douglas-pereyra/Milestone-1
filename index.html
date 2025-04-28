@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- Logo -->
+        <div class="navbar-logo">
+            <a href="/"><img src="img/logopreta.png" alt="Logo Supermercado"></a>
+        </div>
+
+        <!-- Barra de Pesquisa -->
+        <div class="navbar-search">
+            <form action="/buscar" method="GET">
+                <input type="text" placeholder="Buscar produtos...">
+                <button type="submit" class="search-btn">
+                    <!-- Ícone de lupa -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <circle cx="11" cy="11" r="8" stroke-width="2"/>
+                        <line x1="23" y1="23" x2="16.65" y2="16.65" stroke-width="2"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+
+        <!-- Login e Carrinho -->
+        <div class="navbar-icons">
+            <a href="/login" class="login">
+                <!-- Ícone de pessoa -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <circle cx="12" cy="8" r="4" stroke-width="2"/>
+                    <path d="M4 20c0-4 4-7 8-7s8 3 8 7" stroke-width="2"/>
+                </svg>
+                Entre ou cadastre-se
+            </a>
+
+            <a href="/carrinho.html" class="cart">
+                <!-- Ícone de carrinho -->
+                <div class="cart-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M6 6h15l-1.5 9h-13z" stroke-width="2" />
+                        <path d="M6 6L5 2H2" stroke-width="2" />
+                        <circle cx="9" cy="20" r="1" stroke-width="2"/>
+                        <circle cx="18" cy="20" r="1" stroke-width="2"/>
+                    </svg>
+                    Carrinho
+                    <span class="cart-count">2</span>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Barra de Categorias -->
+    <div class="categoria-barra">
+        <div class="categoria-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <line x1="3" y1="6" x2="21" y2="6" stroke-width="2"/>
+                <line x1="3" y1="12" x2="21" y2="12" stroke-width="2"/>
+                <line x1="3" y1="18" x2="21" y2="18" stroke-width="2"/>
+            </svg>
+            <span>Todos</span>
+        </div>
+        <div class="categoria-lista">
+            <a href="#">Bebidas</a>
+            <a href="#">Congelados</a>
+            <a href="#">Limpeza</a>
+            <a href="#">Hortifruti</a>
+            <a href="#">Padaria</a>
+            <a href="#">Carnes</a>
+        </div>
+    </div>
+
+    <!-- Seção de Produtos -->
+    <section class="produtos">
+        <div class="produto">
+            <img src="img/produto-limpeza.jpg" alt="Produto 1">
+            <h3>Produto de Limpeza Genérico</h3>
+            <div class="preco-e-controle">
+                <p class="preco">R$ 10,99</p>
+                <div class="controle">
+                    <button class="menos">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="mais">+</button>
+                </div>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="img/produto-limpeza.jpg" alt="Produto 1">
+            <h3>Produto de Limpeza Genérico</h3>
+            <div class="preco-e-controle">
+                <p class="preco">R$ 10,99</p>
+                <div class="controle">
+                    <button class="menos">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="mais">+</button>
+                </div>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="img/produto-limpeza.jpg" alt="Produto 1">
+            <h3>Produto de Limpeza Genérico</h3>
+            <div class="preco-e-controle">
+                <p class="preco">R$ 10,99</p>
+                <div class="controle">
+                    <button class="menos">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="mais">+</button>
+                </div>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="img/produto-limpeza.jpg" alt="Produto 1">
+            <h3>Produto de Limpeza Genérico</h3>
+            <div class="preco-e-controle">
+                <p class="preco">R$ 10,99</p>
+                <div class="controle">
+                    <button class="menos">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="mais">+</button>
+                </div>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="img/caixa-leite.jpg" alt="Produto 2">
+            <h3>Leite</h3>
+            <div class="preco-e-controle">
+                <p class="preco">R$ 5,49</p>
+
+                <div class="controle">
+                    <button class="menos">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="mais">+</button>
+                </div>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="img/caixa-leite.jpg" alt="Produto 2">
+            <h3>Leite</h3>
+            <div class="preco-e-controle">
+                <p class="preco">R$ 5,49</p>
+
+                <div class="controle">
+                    <button class="menos">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="mais">+</button>
+                </div>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="img/caixa-leite.jpg" alt="Produto 2">
+            <h3>Leite</h3>
+            <div class="preco-e-controle">
+                <p class="preco">R$ 5,49</p>
+
+                <div class="controle">
+                    <button class="menos">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="mais">+</button>
+                </div>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="img/caixa-leite.jpg" alt="Produto 2">
+            <h3>Leite</h3>
+            <div class="preco-e-controle">
+                <p class="preco">R$ 5,49</p>
+
+                <div class="controle">
+                    <button class="menos">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="mais">+</button>
+                </div>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="img/caixa-leite.jpg" alt="Produto 2">
+            <h3>Leite</h3>
+            <div class="preco-e-controle">
+                <p class="preco">R$ 5,49</p>
+
+                <div class="controle">
+                    <button class="menos">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="mais">+</button>
+                </div>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="img/caixa-leite.jpg" alt="Produto 2">
+            <h3>Leite</h3>
+            <div class="preco-e-controle">
+                <p class="preco">R$ 5,49</p>
+
+                <div class="controle">
+                    <button class="menos">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="mais">+</button>
+                </div>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="img/caixa-leite.jpg" alt="Produto 2">
+            <h3>Leite</h3>
+            <div class="preco-e-controle">
+                <p class="preco">R$ 5,49</p>
+
+                <div class="controle">
+                    <button class="menos">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="mais">+</button>
+                </div>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <!-- Você pode copiar esse bloco .produto quantas vezes quiser -->
+    </section>
+
+</body>
+
+</html>

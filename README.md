@@ -53,26 +53,32 @@ This project implements a mock-up for an **Online Supermarket, Carrethree**. The
 
 4. **Product Details Page:**
    - Shows detailed information about a product, including **description**, **price**, **images**, and the option to **add to cart**.
+
+5. **Product Details (admin)**
+    - - CRUD interface for product management
    
-5. **Shopping Cart Page:**
+6. **Shopping Cart Page:**
    - Displays products added to the cart, allows customers to modify quantities, and includes a **Checkout** button.
    
-6. **Checkout Page:**
+7. **Checkout Page:**
    - Collects **shipping address**, **payment details**, and shows the total price.
-
-7. **My account page:**
-    - Account settings
-    - Account information
 
 ### Mockups:
 - Mock-ups for the above screens were created using **HTML5** and **CSS3**. Below are the mock-up pages:
-  - **Customer Home**: ``
-  - **Admin Dashboard**: ``
-  - **Login Page**: ``
-  - **Product Listing**: ``
-  - **Shopping Cart**: ``
-  - **Checkout**: ``
-  - **My Account**: ``
+  - **Customer Home**: 
+  ![customer home](img/customerhome.jpg)
+  - **Admin Dashboard**: 
+  ![adm dashboard](img/admdash.jpg)
+  - **Login Page**: 
+  ![login](img/login.jpg)
+  - **Product Details Page**: 
+  ![cart](img/pdpage.jpg)
+  - **Product Details (admin)**: 
+  ![cart](img/pdadm.jpg)
+  - **Shopping Cart**: 
+  ![cart](img/cart.jpg)
+  - **Checkout**: 
+  ![checkout](img/checkout.jpg)
 
 These mock-ups serve as static snapshots of the application, illustrating the layout and user interface elements. The design follows the **Single-Page Application** style.
 
@@ -80,10 +86,10 @@ These mock-ups serve as static snapshots of the application, illustrating the la
 
 ## Comments About the Code
 
-- **HTML5** is used for structuring the page content, and **CSS3** is used for styling and layout management.
-- The **login/signup forms** are interactive, and CSS transitions are used for smooth page transitions.
-- The layout is **responsive**, ensuring the application works well on different screen sizes (desktop, tablet, mobile).
-- codigo do zuco
+- *HTML5* is used for structuring the page content, and *CSS3* is used for styling and layout management.
+- The *login/signup forms* are interactive, and CSS transitions are used for smooth page transitions.
+- Flexbox is used for most of the page layout to easily align and distribute elements within containers. Only the product listing section uses CSS Grid to better organize multiple items responsively in rows and columns.
+- SVG icons are used instead of image files because they are scalable without losing quality, lightweight for faster loading, and easily customizable with CSS (like changing colors or size dynamically).
 - Placeholder content is used in the mock-ups, but the actual content (products, user data, etc.) will be dynamically generated in the full application.
 
 ---

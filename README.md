@@ -84,6 +84,11 @@ These mock-ups serve as static snapshots of the application, illustrating the la
 
 ---
 
+### Navigation Diagram
+
+- for the navigation diagram we used the figma tool, below is the link to the diagram:
+[navigation diagram](https://www.figma.com/design/CtUhpCMJ491GAEWOQcpVr3/Untitled?node-id=0-1&t=XjS0xpalAkzbz15Z-1)
+
 ## Comments About the Code
 
 - *HTML5* is used for structuring the page content, and *CSS3* is used for styling and layout management.
